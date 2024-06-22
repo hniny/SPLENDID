@@ -1,0 +1,26 @@
+.title{
+    color: #B8B8B8;
+}
+.title1{
+    color: #E91D24;
+}
+
+.fancy {
+    color: #B8B8B8;
+  }
+  .fancy span {
+    display: inline-block;
+    position: relative;  
+  }
+  .fancy span:before{
+    content: "";
+    position: absolute;
+    height: 18px;
+    border-bottom: 3px solid #E91D24;
+    top: 0;
+    width: 15px;
+  }
+  .fancy span:before {
+    right: 100%;
+    margin-right: 8px;
+  }

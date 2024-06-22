@@ -1,0 +1,146 @@
+.software {
+	position: relative;
+}
+.software::after {
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: .4;
+    background-image: url(../images/softwarebk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 36rem;	
+    width: 100%;
+}
+.software h1.title, .software h3.title, .download-list h3.title, .free h1.title, .get h1.title, .feature h5.title {
+	color: #F70024;
+}
+.software img {
+	float: left;
+}
+.feature {
+	float: right;
+	width: 60%;
+}
+.software h1.title {
+	margin: 80px 0 40px;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+.feature-lists {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 20px;
+}
+.feature h5.title {
+	margin: 0;
+	font-size: 16px;
+}
+.feature p {
+	font-size: 12px;
+	margin: 0!important;
+	padding: 0;
+}
+.software h5, .software p, .free p, .get p {
+	color: #B8B8B8;
+	margin: 20px 0;
+}
+.software a.download {
+	padding: 10px 24px;
+	background: #F70024;
+	color: #000;
+	font-size: 20px;
+	display: inline-block;
+	margin-top: 26px;
+}
+.download-list {
+	margin-top: 100px;
+}
+.download-list .img img {
+	width: 100%;
+	object-fit: contain;
+	opacity: .6;
+}
+.download-list .item {
+	border-left: 1px solid #707070;
+}
+.download-list h3.title {
+	margin: 60px 0 30px;
+}
+.download-list .text {
+	padding: 30px 40px;
+	background: #242424;
+}
+.download-list .text h5 {
+	text-transform: uppercase;
+}
+.download-list .text a.download,.free a.download, .get a.download {
+	padding: 10px 24px;
+	background: #F70024;
+	color: #000;
+	font-size: 20px;
+	display: inline-block;
+	margin-top: 26px;
+}
+.free a.download, .get a.download {
+	display: table;
+	margin: auto;
+}
+.free {
+	margin-top: 60px;
+	background-image: url(../images/free.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 34rem;
+	opacity: .7;
+}
+.free h1.title, .get h1.title {
+	padding-top: 120px;
+}
+.free p, .get p {
+	margin: 60px 0 30px;
+}
+.get {
+	background-image: url(../images/getbk.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 30rem;
+	opacity: .7;
+}
+.owl-stage-outer {
+	border-bottom: 1px solid #707070;
+}
+.owl-nav {
+	text-align: right!important;
+}
+.owl-prev , .owl-next {
+	position: relative;
+	margin: 0 30px;
+	width: 60px;
+}
+.owl-prev:focus , .owl-next:focus {
+	outline: none;
+}
+.owl-prev span , .owl-next span {
+	display: none;
+}
+.owl-prev::before {
+	content: "";
+	background-image: url(../images/prev.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 20px;
+}
+.owl-next::before {
+	content: "";
+	background-image: url(../images/next.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 20px;
+}

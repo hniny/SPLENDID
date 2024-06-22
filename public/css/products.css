@@ -1,0 +1,277 @@
+.breadcrumb {
+  background-color: #141414 !important;
+  color: #9e9e9e;
+  margin-top: 2px;
+}
+.breadcrumb .breadcrumb-item a {
+  color: #9e9e9e;
+}
+.breadcrumb > .active {
+  color: #e91d24 !important;
+}
+.products .left-list {
+  box-shadow: 0px 2px 6px 0px #111;
+  margin-top: 54px;
+  padding: 30px;
+  background: #141414 !important;
+}
+.products .left-list .reset-button {
+  background: none;
+  color: #b8b8b8;
+  border: 1px solid #b8b8b8;
+  padding: 4px 20px;
+}
+.products .left-list .category {
+  border-bottom: 2px solid #e91d24;
+  margin-bottom: 30px;
+}
+.products .left-list .category .radio label > input {
+  margin-right: 18px;
+}
+.products .left-list .category h5 {
+  color: #e91d24;
+  margin: 8px 0 16px;
+}
+.products .left-list .category .dropdown-toggle {
+  color: #fff;
+  border: none !important;
+  margin-bottom: 12px;
+}
+.products .left-list .category .dropdown-toggle::after {
+  display: none;
+}
+.products .left-list .category .dropdown-toggle::before {
+  display: inline-block;
+  margin-right: 12px;
+  content: ">";
+  font-size: 20px;
+}
+.products .left-list .category .radio label > input[type="radio"]:checked {
+  background-color: #e91d24;
+  outline: none;
+}
+.products .left-list .category .dropdown-menu.show {
+  height: auto;
+  width: auto;
+  position: static !important;
+  margin-left: 26px;
+}
+.products .left-list .category label {
+  color: #b8b8b8;
+  margin-bottom: 10px;
+}
+.products .right-list h3 {
+  color: #e91d24;
+  display: inline;
+}
+.products .right-list form {
+  float: right;
+}
+.products .right-list form label {
+  color: #9e9e9e;
+  text-align: right;
+  padding-right: 0;
+}
+.products .right-list form .md-form {
+  height: 35px;
+  background: #000;
+  color: #e91d24;
+  border: 0;
+  padding: 0 8px;
+}
+.products .right-list .card-lists .card {
+  box-shadow: 0px 2px 6px 0px #111;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  padding: 25px;
+  background: #141414 !important;
+  overflow: hidden;
+  border-radius: 0;
+}
+.products .right-list .card-lists .col-md-4 {
+  padding: 0;
+}
+.products .right-list .card-lists .card .img {
+  width: 85%;
+  margin: auto;
+  padding: 25px;
+  height: 13rem;
+  overflow: hidden;
+}
+.products .right-list .card-lists .card h5 {
+  color: #e91d24;
+  font-size: 18px;
+}
+.products .right-list .card-lists .card p {
+  color: #b8b8b8;
+  font-size: 16px;
+}
+
+.card {
+  position: relative;
+}
+.card:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.35s ease 0s;
+}
+.card:hover:before {
+  opacity: 1;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card .box-content {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.card .box-content:after,
+.card .box-content:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.7s ease 0s;
+}
+.card .box-content:before {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  transform: scale(0, 1);
+  transform-origin: 0 0 0;
+}
+.card .box-content:after {
+  border-left: 1px solid rgba(255, 255, 255, 0.8);
+  border-right: 1px solid rgba(255, 255, 255, 0.8);
+  transform: scale(1, 0);
+  transform-origin: 100% 0 0;
+}
+.card:hover .box-content:after,
+.card:hover .box-content:before {
+  opacity: 1;
+  transform: scale(1);
+  transition-delay: 0.15s;
+}
+.card .title {
+  font-size: 21px;
+  font-weight: 700;
+  color: #fff;
+  margin: 80px 0 30px;
+  text-align: center;
+  opacity: 0;
+  transform: translate3d(0, -50px, 0);
+  transition: transform 0.5s ease 0s;
+}
+.card:hover .title {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+/* .card .post {
+  display: table;
+  margin: auto;
+  font-size: 14px;
+  color: #000;
+  padding: 6px 12px;
+  background: #E91D24;
+  opacity: 0;
+  transform: translate3d(0, -50px, 0);
+  transition: all 0.7s ease 0s;
+}
+.card:hover .post {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition-delay: 0.15s;
+} */
+.card .icon {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+  transition: all 0.7s ease 0s;
+}
+.card:hover .icon {
+  bottom: 70px;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+.card .icon a {
+  display: block;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  padding: 6px 12px;
+  background: #e91d24;
+  margin: 0 60px;
+  transition: all 0.4s ease 0s;
+}
+.card .icon a:hover {
+  background: #000;
+  color: #fff;
+  border: 1px solid #ddd;
+}
+.panel-body {
+  margin-left: 12px;
+}
+.fancy-collapse-panel .panel-default > .panel-heading {
+  padding: 0;
+}
+.fancy-collapse-panel .panel-heading a {
+  padding: 12px 0;
+  display: inline-block;
+  width: 100%;
+  color: #ffffff;
+  position: relative;
+  text-decoration: none;
+}
+.fancy-collapse-panel .panel-heading a i.fa-chevron-down {
+  margin-right: 12px;
+}
+.fancy-collapse-panel .panel-heading a.collapsed i.fa-chevron-down {
+  transform: rotate(270deg);
+}
+
+.warranty_card{
+  box-shadow: 0px 2px 6px 0px #ad272b;
+  margin-bottom: 12px;
+  padding: 8px;
+  background: #141414 !important;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.driver_card{
+  box-shadow: 0px 2px 6px 0px #ad272b;
+  background: #141414 !important;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.driver_card:before {
+  width: 100%;
+  height: 100%;
+}
+.driver_card:hover:before {
+  opacity: 1;
+}
+
+
+@media only screen and (max-width: 990px) {
+  .card {
+    margin-bottom: 30px;
+  }
+}

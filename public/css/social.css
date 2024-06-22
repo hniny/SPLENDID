@@ -1,0 +1,67 @@
+.img-text-group{
+    position: absolute;
+    top: 30%;
+    width: 50%;
+    right: 25px;
+}
+
+.img-wrapper{
+    position: relative;
+}
+
+.default-color{
+    color: #E91D24;
+}
+
+.social-font{
+    font-size: 18px;
+}
+
+.social-nav:link{
+    text-decoration: none;
+    color: #ffffff;
+}
+.social-nav:visited{
+    text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
+}
+.social-nav:hover{
+    text-decoration: none;
+    color: #E91D24;
+}
+.social-nav:active{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social_link{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: bold;
+    background: #111;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+.driver_card{
+    box-shadow: 0px 1px 7px 0px #E91D24;
+    background: #141414 !important;
+    overflow: hidden;
+    border-radius: 0;
+  }
+
+@media only screen and (max-width: 600px) {
+
+    .social-font{
+        font-size: 5px;
+    }
+    .mobile-size{
+        font-size: 7px;
+    }
+}
+

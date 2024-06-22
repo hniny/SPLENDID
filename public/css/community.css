@@ -1,0 +1,145 @@
+.community {
+	position: relative;
+}
+.community .bannerimg {
+	/*object-fit: contain;*/
+	width: 100%;
+    height: 42rem;
+    opacity: 0.4;
+}
+.community .caption {
+	position: relative;
+	text-align: center;
+	bottom: 36rem;
+}
+.review .caption {
+	position: relative;
+	text-align: center;
+	bottom: 27rem;
+}
+.community .caption h1.title, .review .caption h1.title {
+	color: #F70024;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.community .caption p, .review .caption p {
+	color: #B8B8B8;
+	font-size: 30px;
+}
+.review .caption p {
+	font-size: 20px;
+	padding: 40px 0;
+}
+.community .main-link {
+	margin-top: -349px;
+	background: #000;
+	padding: 18px 0;
+}
+.community .main-link li.nav-item {
+	padding: 0 40px;
+}
+.community .main-link li.nav-item a {
+	color: #F70024;
+}
+.social {
+	padding: 40px 0;
+}
+.social h3.title, .represent h3.title, .support h3.title {
+	text-align: center;
+	font-size: 36px; 
+	color: #F70024;
+	text-transform: uppercase;
+}
+.social p, .represent p, .support p {
+	text-align: center;
+	color: #B8B8B8;
+	margin: 40px 0;
+}
+.social .sublink {
+	padding: 20px 66px!important;
+}
+.social .sublink i {
+	font-size: 50px;
+	margin: auto;
+	color: #B8B8B8;
+	display: table;
+}
+.social .sublink h3.linktitle {
+	color: #B8B8B8;
+	text-align: center;
+	margin: 20px 0;
+}
+.social .sublink p.linktext {
+	text-align: left;
+}
+.social .sublink a.connect {
+	display: table;
+    margin: auto;
+    padding: 8px 25px;
+    background: #000;
+    color: #fff!important;
+}
+.review .reviewimg {
+	height: 42rem;
+	/*object-fit: contain;*/
+	width: 100%;
+}
+.review a.view {
+	padding: 8px 20px;
+	background: #F70024;
+	color: #000;
+}
+.represent {
+	margin-top: -290px;
+	padding: 40px 0;
+}
+.represent img {
+	/*object-fit: contain;*/
+    height: 17.9rem;
+    width: 100%;
+}
+.represent .representlist {
+	border-right: 1px solid #fff;
+	padding: 0!important;
+}
+.represent .detail {
+	padding: 12px;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	display: table;
+	width: 100%;
+}
+.support .supporttext {
+	padding: 40px 60px;
+}
+.support .supporttext h3 {
+	color: #B8B8B8;
+	font-size: 24px;
+}
+.support .supporttext p {
+	color: #B8B8B8;
+	font-size: 16px;
+	text-align: left;
+}
+.support .supportlist {
+	overflow: hidden;
+}
+.support .supportlist img {
+	/*object-fit: contain;*/
+	height: 22rem;
+	width: 100%;
+}
+.support .supporttext a.viewmore {
+	display: table;
+	width: 100%;
+	text-align: center;
+	padding: 14px;
+	background: #000000;
+	color: #B8B8B8;
+}
+.support .supporttext a.viewmore img {
+	width: 50px;
+	padding-left: 12px;
+}
