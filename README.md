@@ -1,4 +1,5 @@
 Computer Product Shop - Laravel Project
+
 Overview:
 This project is a dynamic web application built using the Laravel framework, designed to serve as an online computer product shop. It features an admin panel for managing site content and user interactions, and provides customers with tools to build custom PCs, view prices, and place orders.
 
